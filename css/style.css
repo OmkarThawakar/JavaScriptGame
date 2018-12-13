@@ -1,0 +1,42 @@
+
+.background {
+   background: white; /* For browsers that do not support gradients */
+   background: -webkit-linear-gradient(#70e1f5,#707B7C); /* For Safari 5.1 to 6.0 */
+   background: -o-linear-gradient(#70e1f5,#707B7C); /* For Opera 11.1 to 12.0 */
+   background: -moz-linear-gradient(#70e1f5,#707B7C); /* For Firefox 3.6 to 15 */
+   background: linear-gradient(#70e1f5,#707B7C); /* Standard syntax */
+   table-layout: fixed;
+   border-spacing: 0;
+}
+.background td { 
+  padding: 0;                     
+}
+.lava { 
+  background: #FF4500; 
+}
+.wall { 
+  background: #DEB887;              
+}
+
+.actor {
+  position: absolute;
+}
+.coin {
+  background: #FFFF00;
+}
+.player {
+  background: rgb(64, 64, 64);
+}
+
+.lost .player {
+  background: rgb(160, 64, 64);
+}
+.won .player {
+  box-shadow: -4px -7px 8px white, 4px -7px 8px white;
+}
+.game {
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+  position: relative;
+}
